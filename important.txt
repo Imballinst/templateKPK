@@ -1,0 +1,90 @@
+MoM
+
+- Disposisi Penugasan rubah jadi Disposisi Pelaporan
+- Master Peran rubah jadi Master Role.
+- Master Role, setting hak akses di cek kembali, contoh: Direktur Gratifikasi tidak bisa pilih semua.
+
+- Penerimaan Pelaporan Gratifikasi, data administrative dari pelapor, klo bisa ada di dalam form Penerimaan Pelaporan baru.
+- Perlu juga di tambahkan fitur untuk update status kedinasan dan juga kontak personal jika terjadi perubahan.
+- Master Pelapor tidak perlu ada tambah atau hapus.
+- Master Pelapor di "Lihat" munculkan history dari pelaporan yang pernah dilakukan.
+
+- Master Mata Uang untuk data gunakan mata uang yang major
+
+- Master Checklist Kelengkapan, optional untuk kasus-kasus yang aneh.
+
+- Master Kelompok, penanganan perpindahan fungsional gratifikasi.
+
+- Master Instansi, untuk pelaporan perlu ditangani jika terjadi perubahan nama.
+- Master Instansi, untuk pengisian khusus pemda, ambil bagian yang paling atas. Alamat di isi dengan dinas setempat.
+
+- BAK non pernikahan, contoh dokumennya.
+- LHA non pernikahan, buat templatenya.
+
+- No Registrasi untuk sementara biarkan kosong terlebih dahulu saja.
+
+-------------
+
+Dear All, terlampir MoM pada update progress report hari ini.
+Login Page
++ Halaman login di tengahkan
++ Tambahkan copyright di kiri bawah, dengan format c Komisi Pemberantasan Korupsi 2015, Alright Reserved
++ Rubah teks "Laporan Gratifikasi" menjadi "Sistem Informasi Gratifikasi"
++ Tambahkan jeda di antara field username dan password
++ logo KPK diganti sesuai dengan logo yang ada di kpk.go.id
+- Module log user (Untuk mencatat aktivitas dari user)
+  * username
+  * datetime
+  * aktifitas
+  * session
+  * IP (jika memungkinkan)
+  
+Menu
+Menu Sistem
++ Master Pengguna
++ Master Peran (Rubah menjadi Master Role)
+Menu Daftar Laporan
++ Analisa Pelaporan
++ Disposisi Penugasan
++ Laporan Hasil Analisa
++ Distribusi Pelaporan
+
++ Daftar Pelaporan dirubah menjadi Daftar Pelaporan Gratifikasi
+- Pelaporan Gratifikasi Baru rubah menjadi Penerimaan Pelaporan Gratifikasi
++ Urutan dari Menu
+  Beranda - Pelaporan Gratifikasi - Daftar Laporan - Master - Sistem - Logout
+
+Halaman Master Pelaporan
+- Tambah Pelapor dirubah sama seperti di Ubah Pelapor.
+- Tambahkan Frame untuk masing-masing bagian input.
+- Tambah pelaporan, bagian status kedinasan, dan Detail Kontak, sebelum data pelaporan diinput di disable.
+- Button simpan diperjelas.
+- Tambah button batal di Tambah Pelapor.
+- Telp Kantor di pindah ke status kedinasan.
+- Kontak dirubah menjadi Kontak Personal.
+- Urutan di tabel status kedinasan
+  NIP - Instansi - Unit Kerja - Jabatan - Pangkat
+- Urutan di tabel Kontak Personal
+  Alamat Rumah - Telp Rumah - Telp HP - email
+
+Master Kelompok
+- Tambah kelompok dirubah bisa menggunakan list atau seperti tambah pelaporan atau atur kalender di master kalender untuk penambahan kelompok.
+
+Master Status Informasi
+- Kode Status Informasi rubah menjadi Kode
+- Nama Status Informasi rubah menjadi Status Informasi
+
+Master Status Kelengkapan
+- Kode Status Kelengkapan rubah menjadi Kode
+- Nama Status Kelengkapan rubah menjadi Status Kelengkapan
+
+Master Instansi
+- Nama Instansi rubah menjadi Kode
+- Status rubah menjadi Nama Instansi
+
+Template Umum Master
+- Bagian kanan atas tambahkan keterangan user login dan waktu
+- Tampilan disesuaikan dengan format Master Pelapor.
+- Kata Daftar di judul master dihilangkan.
+- Show Entries pada tiap tabel di rubah ke bagian bawah tabel.
+- Status digunakan hanya untuk delete, kecuali di Master Pelaporan untuk bagian Status Kedinasan dan Kontak Personal, status digunakan untuk menyatakan aktif hal tersebut masih digunakan atau tidak.

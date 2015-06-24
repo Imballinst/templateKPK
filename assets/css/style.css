@@ -1,0 +1,67 @@
+.title-header {
+    font-family: "Roboto Slab", serif;
+    font-size:34px; 
+    font-weight:bold;
+    float:right;
+    margin-right:20px; 
+    margin-top:15px;
+}
+.centered {
+    vertical-align: middle;
+}
+.footer {
+    background-image: linear-gradient(to bottom, #e74c3c 0%, #e43725 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0 1px 2px 0 rgba(255, 255, 255, 0.3) inset, 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    border-color: #d62c1a #d62c1a #a82315;
+    border-radius: 6px 6px 0px 0px;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #fff;
+}
+p.btn-text {
+    color: #000;
+    margin: 0;
+}
+p.btn-text-white {
+    color: #FFF;
+    margin: 0;
+}
+
+.btn-primary {
+    background: #000;
+    border-color: #000;
+}
+.btn-primary:hover {
+    background: #333333;
+    border-color: #333333;
+}
+
+#buttonPanel {
+    position: fixed;
+    right: 3%;
+    top: 20%;
+}
+#buttonPanel button {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.pelapor-table {
+    
+}
+.tambah-pelapor {
+/*  background-color: #565A5C; */
+}
+#first1 {
+    width: 100%;
+    height: 500px;
+    top: 0px;
+  }
+#second1 {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 500px;
+}
