@@ -28,6 +28,9 @@ p.btn-text-white {
     color: #FFF;
     margin: 0;
 }
+.logo {
+    width: 200px;
+}
 
 .btn-primary {
     background: #000;
