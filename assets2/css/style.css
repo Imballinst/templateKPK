@@ -1,3 +1,150 @@
-.logo {
-    position: absolute;
+/* DEFAULT FONT */
+
+html, body {
+    font-family: "Open Sans", sans-serif;
 }
+
+/* HEADER */
+
+.row.header-logo {}
+
+img.img-header-logo {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 200px;
+}
+
+.col-md-8.col-md-8-custom-navbar {
+    border-top: 5px double #000;
+    border-bottom: 5px double #000;
+}
+
+/* NAVBAR SCHEMES */
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+
+.navbar-default {
+    border-radius: 0px;
+    background-color: transparent;
+    font-family: "Roboto Slab", serif;
+    border: 0px;
+    opacity: 0.95;
+    z-index: 1;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #000;
+    background-color: transparent;
+    border-bottom: 3px solid #663333;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    margin-top: 8px;
+    border-top: 0;
+    background-color: #FFCC99;
+}
+
+/* ROW */
+
+.row.row-custom {
+    background-color: #FFCC99;
+    border: 6px groove #CC3300;
+    border-radius: 4px;
+    margin: 0px;
+    padding: 5px;
+    opacity: 0.95;
+    z-index: 0;
+}
+
+/* FOOTER SCHEMES */
+
+.footer.footer-custom {
+    margin-top: 15px;
+    position: relative;
+    padding: 5px;
+    opacity: 0.95;
+    z-index: 0;
+}
+
+.footer-left {
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    float: left;
+}
+
+.footer-right {
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    float: right;
+}
+
+.clear-footer {
+    clear: both;
+}
+
+/* COLUMNS */
+
+.col-md-12.col-md-12-custom {
+    margin-top: 20px;
+}
+
+/* BUTTONS */
+
+.btn.btn-primary.btn-primary-custom {
+    background-color: #CC3300;
+    border-color: #CC3300;
+    color: #FFF;
+}
+
+.btn.btn-primary.btn-primary-custom:hover {
+    background-color: #663333;
+    border-color: #663333;
+    color: #FFF;
+}
+
+/* GLYPHICONS */
+
+.glyphicon {
+    margin-right: 4px;
+}
+
+/* TEXT STYLES */
+
+h1.center, h2.center {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* FORM */
+
+.input-group {
+
+}
+
+/* OTHER STYLES */
