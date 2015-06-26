@@ -34,39 +34,55 @@
         <div class="col-md-2"></div>
     </div>
      <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3">
-                    <div class="row row-custom">
-                        <h2 class="center">Login</h2>
-                        <form>
-                            <div class="col-md-6 col-md-offset-3">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-md-offset-3">
-                                <div class="form-group">
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-md-offset-4">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox"> Biarkan saya tetap masuk
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-md-offset-3">
-                                <button type="submit" class="btn btn-default">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-3"></div>
+        <div class="row">
+            <div class="col-md-6 col-md-6-custom-navbar col-md-offset-3">
+                Sistem Informasi Gratifikasi
             </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="row row-custom">
+                    <h2 class="center">Login</h2>
+                    <form>
+                        <!-- USERNAME -->
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                    <i class="glyphicon glyphicon-envelope form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <!-- PASSWORD -->
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <div class="form-group has-feedback has-feedback-left">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <i class="glyphicon glyphicon-lock form-control-feedback"></i>
+                                </div>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                        <!-- CHECKBOX AND SUBMIT BUTTON -->
+                        <div class="row">
+                            <div class="col-md-12">  
+                                <div class="center-form">
+                                    <div class="checkbox">
+                                        <input type="checkbox"> Biarkan saya tetap masuk
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
         <footer class="footer footer-custom">
             <span class="footer-left">&copy; Komisi Pemberantasan Korupsi 2015, All Rights Reserved</span>
-            <span class="footer-right">Sistem Informasi Gratifikasi</span>
             <div class="clear-footer"></div>
         </footer>
     </div>
