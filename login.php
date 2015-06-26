@@ -4,7 +4,7 @@
             <div class="col-md-6 col-md-offset-3">
                 <div class="row row-custom">
                     <h2 class="center">Login</h2>
-                    <form action="?p="home"">
+                    <form action="index.php">
                         <!-- USERNAME -->
                         <div class="row">
                             <div class="col-md-3"></div>
