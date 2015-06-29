@@ -40,6 +40,12 @@ img.img-header-logo {
     border-bottom: 5px double #000;
 }
 
+.col-md-8-title-text {
+    font-family: 'Righteous', curaive;
+    font-size: 34px;
+    text-align: center;
+}
+
 /* NAVBAR SCHEMES */
 
 .navbar-nav {
